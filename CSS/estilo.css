@@ -1,0 +1,238 @@
+ Body{
+background-image:url("../imagenes/imagenn.jpg");
+font-family:"arial";
+color:#2E2487;
+font-size:15px;
+}
+P{
+font-family:"lucida,"courier New","monospace;
+color:#EA04F9 ;
+font-size:10px;
+}
+
+HR{
+	border:3px solid #600366; 
+}
+
+Table,tr,td{
+	border:3px solid;
+	border-color:#9BC8F0 ;
+	background-color:#F6C2FB ;
+}
+th{
+background-color:#F94DDD;
+border: 3px solid;
+border-color:#F9DFF4;
+}
+.pie {
+	text-align:center;
+	font-size:10px;
+	color:#0B195A;
+	font-family: Arial, Biondi,"Lucida console";
+	font-weight:bold;
+}
+.titulo{
+	font-family:Lesgo;
+	font-size:50px;
+	color:#02061B; 
+	text-align:center;
+}
+.tablas{
+	font-family:yamatha;
+	font-size:15px;
+	text-align:center;
+}
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:upper-roman;
+	list-style-position:inside;
+}
+
+.marquee{
+	height:400px;
+	width:400px;
+}
+.hipervinculos{
+	height:100px;
+	width:100px;
+	border-radius:10%;
+}
+.atablas{
+	height:400px;
+	width.400px;
+}
+.otrasimg{
+	height:200px;
+	width:200px;
+	border:2px solid :#9BC8F0 ;
+}
+@font-face{
+	font-family:Lesgo;
+	src: url(../fuentes/Lesgo.ttf);
+}
+@font-face{
+	font-family:yamatha;
+	src: url(../fuentes/yamatha.ttf);
+}
+div#top{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#EF3D86,#F8E7EE);
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+div#principal{
+	margin:auto;
+	margin-top:0px;
+	width:90%;
+	height:400px;
+	background-image:linear-gradient(#CDD6F6,#2E59F6 );
+}
+div#principal9{
+	margin:auto;
+	margin-top:0px;
+	width:90%;
+	height:600px;
+	background-image:linear-gradient(#CDD6F6,#2E59F6 );
+}
+div#piepag{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#EF3D86,#F8E7EE);
+}
+div#descripcion{
+	margin-top:20px;
+	width:100%;
+	background-color:#EF3D86,#F8E7EE;
+}
+.caja{
+	height:300px;
+	width:250px;
+	background:#eee;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px pink;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-right:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+div#botones{
+margin-top:20px;
+width:100%;
+height:100px;
+background-image:radial.gradient(#EF3D86,#F8E7EE);
+	
+}
+.imagproductos{
+	height:400px;
+	width:400px;
+	border:2px solid :#9BC8F0;
+}
+	
+.carrousel{
+    width: 600px;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+/*
+#itemCarrousel-1{
+    background-color: red;
+}
+
+#itemCarrousel-2{
+    background-color:blue;
+}
+
+#itemCarrousel-3{
+    background-color: green;
+}
+#itemCarrousel-4{
+    background-color: purple;
+}
+*/
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+.caja1{
+	height:100px;
+	width:100px;
+	background:#eee;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja1:hover{
+	box-shadow:0 0 10px pink;
+	transform:scale(1.3);
+}
+
